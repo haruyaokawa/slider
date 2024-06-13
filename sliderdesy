@@ -1,3 +1,7 @@
+<html>
+<head>
+<meta name="color-scheme" content="light dark"></head><body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
 @charset "utf-8";
 
 /*==================================================
@@ -13,3 +17,33 @@
 .slider .slick-slide {
     margin:0 10px;/*スライド左右の余白調整*/
 }
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+body{
+	background:#eee;
+}
+
+h2,p {
+    text-align:center;
+    padding:20px;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: #333;
+}
+
+a:hover,
+a:active{
+	text-decoration: none;
+}
+</pre>
+</body>
+</html>
